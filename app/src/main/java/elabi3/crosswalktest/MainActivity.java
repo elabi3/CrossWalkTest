@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         Timber.plant(new Timber.DebugTree());
 
-        //loadXWalk();
-        loadStandardWebView();
+        loadXWalk();
+        //loadStandardWebView();
     }
 
     @Override
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     //region Auxiliar
     private void loadXWalk() {
-        //Fragment fragment = XwalkFragment.newInstance("https://chromium.github.io/octane/");
-        Fragment fragment = XwalkFragment.newInstance("http://www.wirple.com/bmark/");
+        Fragment fragment = XwalkFragment.newInstance("https://chromium.github.io/octane/");
+        //Fragment fragment = XwalkFragment.newInstance("http://www.wirple.com/bmark/");
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.main_content, fragment, fragment.getClass().getSimpleName());
@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadStandardWebView() {
-        //Fragment fragment = WebViewFragment.newInstance("https://chromium.github.io/octane/");
-        Fragment fragment = WebViewFragment.newInstance("http://www.wirple.com/bmark/");
+        Fragment fragment = WebViewFragment.newInstance("https://chromium.github.io/octane/");
+        //Fragment fragment = WebViewFragment.newInstance("http://www.wirple.com/bmark/");
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.main_content, fragment, fragment.getClass().getSimpleName());

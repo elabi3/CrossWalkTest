@@ -15,17 +15,26 @@ To test the performance of these webviews i use:
 
 Device: Nexus 4 (mako) - Android 5.1.1 (api 22)
 
-| WebView | Crosswalk |
+| WebView v39 | Crosswalk 23.53.589.4 |
 | ------ | ------ |
 | Octane:  | Octane:  |
-| wirple:   | wirple: 96 |
+| Wirple: 74 | Wirple: 96 |
+
+
+# Crosswalk Installation
+
+```
+    compile 'org.xwalk:xwalk_core_library:23.53.589.4'
+```
+
+Check latest version from this website
+
+* [Download](https://download.01.org/crosswalk/releases/crosswalk/android/maven2/org/xwalk/xwalk_core_library/) 
 
 
 # References
 
 To develop this example app i read multiple articles that inspire to me:
-
-* [Download](https://download.01.org/crosswalk/releases/crosswalk/android/maven2/org/xwalk/xwalk_core_library/) 
 
 * [Crosswalk Project](https://crosswalk-project.org/) 
 
