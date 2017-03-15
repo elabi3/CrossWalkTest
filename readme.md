@@ -15,7 +15,7 @@ To test the performance of these webviews i use:
 
 Device: Nexus 4 (mako) - Android 5.1.1 (api 22)
 
-| WebView v39 | Crosswalk 23.53.589.4 |
+| WebView - v39 | Crosswalk - 23.53.589.4 |
 | ------ | ------ |
 | Octane:  | Octane:  |
 | Wirple: 74 | Wirple: 96 |
