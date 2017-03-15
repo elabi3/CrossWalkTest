@@ -18,7 +18,7 @@ Device: Nexus 4 (mako) - Android 5.1.1 (api 22)
 | WebView - v39 | Crosswalk - 23.53.589.4 |
 | ------ | ------ |
 | Octane:  | Octane:  |
-| Wirple: 74 | Wirple: 96 <img src="https://github.com/elabi3/CrossWalkTest/blob/master/Wirple%20-%20Crosswalk.png">|
+| Wirple: 74 <img src="https://github.com/elabi3/CrossWalkTest/blob/master/Wirple%20-%20Webview.png">| Wirple: 96 <img src="https://github.com/elabi3/CrossWalkTest/blob/master/Wirple%20-%20Crosswalk.png">|
 
 
 # Crosswalk Installation
